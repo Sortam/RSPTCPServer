@@ -138,6 +138,9 @@ static volatile int ctrlC_exit = 0;
 #define DEFAULT_AGC_STATE 1
 #define RTLSDR_TUNER_R820T 5
 
+#define SERVER_NAME "rsp_tcp"
+#define SERVER_VERSION "1.1"
+
 static int bwType = sdrplay_api_BW_Undefined;
 static int last_gain_idx = 0;
 static int verbose = 0;
